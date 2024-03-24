@@ -1,0 +1,25 @@
+﻿@using SvidMed.Common
+@model SvidMed.Web.ViewModels.Index.IndexViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+@section head{
+}
+<div class="jumbotron jumbotron-fluid jumbotron-opacity">
+    <div class="container">
+        <h1 class="display-4">Вітаємо в @GlobalConstants.SystemName!</h1>
+            <p class="lead">Платформа, що з'єднує лікарів і пацієнтів у режимі реального часу.</p>
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <hr class="my-4">
+            <p>Ви можете зареєструватися як лікар або як пацієнт. Як пацієнт ви можете записуватись на прийом та отримувати онлайн-консультації з лікарем, якого ви обрали. Як лікар, ви можете керувати призначеннями своїх пацієнтів і переглядати їхні симптоми онлайн.</p>
+            <div style="text-align: center; margin-top: 4%;">
+                <a class="btn btn-primary btn-lg main-btn main-size" asp-area="Identity" asp-page="/Account/Register">Реєстрація</a>
+                <a class="btn btn-warning btn-lg main-btn main-size" asp-area="Identity" asp-page="/Account/Login">Вхід</a>
+            </div>
+        }
+        else{
+            // тут функціонал
+        }
+    </div>
+</div>
