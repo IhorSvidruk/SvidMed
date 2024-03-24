@@ -18,7 +18,8 @@ results.
 
 ##Home Page
   <summary>
-![home pg](https://github.com/IhorSvidruk/SvidMed/assets/91247110/b752f987-78fb-4f49-a75d-597ebd1f14af)
+    ![home pg](https://github.com/IhorSvidruk/SvidMed/assets/91247110/33fb2ea8-28ff-47a8-8324-c22e8b72421d)
+
   </summary>
     
 <br>
