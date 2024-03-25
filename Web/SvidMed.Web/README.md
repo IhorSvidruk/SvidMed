@@ -18,10 +18,7 @@ results.
 
 ## Screenshots 
   <summary>
-  
-
-
-
+ 
   </summary>
     
 <br>
