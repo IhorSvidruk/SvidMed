@@ -46,7 +46,6 @@ results.
 
 ##Admin page
   <summary>
-![admin pg](https://github.com/IhorSvidruk/SvidMed/assets/91247110/10888e83-8348-49ca-84ee-a8f43bbe2c9c)
-  </summary>
+https://github.com/IhorSvidruk/SvidMed/blob/master/ScreenShots/admin%20pg.jpg  </summary>
     
 <br>
